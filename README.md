@@ -31,77 +31,34 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global architectural design and BIM software sector is valued at approximately **$6.6B–$10B+** (with architectural CAD drafting accounting for ~$6.6B and broader BIM/AEC software scaling beyond $10B) growing at an 8%–12% CAGR. The market exhibits an **oligopolistic concentration at the top**—dominated by incumbent mega-vendors (Autodesk, Nemetschek, Trimble, and Hexagon) controlling standard enterprise formats and BIM mandates—paired with **moderate fragmentation across specialized niches**, where agile SaaS and point solutions compete on residential space planning, AI-assisted rendering, and lightweight browser drafting.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[AutoCAD Web (Autodesk)](https://autocad.com)**  
-
-  Cloud-based CAD drafting platform enabling browser-native DWG editing, automated layer management, LISP scripting, and real-time architectural drawing collaboration.
-
-
-
-- **[Revit Cloud Worksharing (Autodesk BIM Collaborate Pro)](https://autodesk.com)**  
-
-  Enterprise cloud BIM platform for multi-disciplinary architectural modeling, automated construction sheet generation, clash detection, and centralized model syncing.
-
-
-
-- **[ArchiCAD BIMcloud (Graphisoft)](https://graphisoft.com)**  
-
-  Real-time cloud BIM collaboration server powering simultaneous architectural drafting, automated schedule extraction, and cross-team model coordination.
-
-
-
-- **[Vectorworks Cloud Services](https://vectorworks.net)**  
-
-  Cloud processing and collaboration suite offloading heavy 2D/3D architectural rendering, BIM file conversions, and automated drawing sheet publishing.
-
-
-
-- **[BricsCAD BIM (Hexagon)](https://bricsys.com)**  
-
-  AI-assisted DWG-native BIM and CAD platform featuring automated spatial classification, continuous level-of-detail modeling, and automated 2D construction documentation.
-
-
-
-- **[SketchUp Web (Trimble)](https://sketchup.com)**  
-
-  Browser-based 3D architectural massing and schematic design environment integrated with Trimble Connect cloud storage and LayOut documentation workflows.
-
-
-
-- **[Chief Architect Cloud](https://chiefarchitect.com)**  
-
-  Residential architectural drafting and automated construction drawing suite offering cloud plan sharing, 3D viewer links, and automated framing/elevation generation.
-
-
-
-- **[Cedreo](https://cedreo.com)**  
-
-  Cloud-based 3D home design platform automating 2D dimensioned floor plans, cross-sections, and photorealistic architectural renderings for builders and remodelers.
-
-
-
-- **[Floorplanner](https://floorplanner.com)**  
-
-  Interactive web-based 2D/3D schematic space-planning platform for rapid architectural floor plan drafting, automated measurements, and cloud sharing.
-
-
-
-- **[Foyr Neo](https://foyr.com)**  
-
-  Cloud-native architectural and interior layout platform combining automated 2D-to-3D plan conversion, AI-assisted lighting, and fast cloud rendering.
+| Platform | Company Scale (Market Cap / Revenue / Valuation) | Pricing (Starting Tier) | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[AutoCAD Web (Autodesk)](https://autocad.com)** | ~$64.0B Market Cap / $6.13B FY25 Revenue | $10/month (or $100/year billed annually) | 30-day free trial; full web/mobile access with cloud DWG viewing & editing (no permanent free commercial plan; free access granted to verified educators & students). | Cloud-based CAD drafting platform enabling browser-native DWG editing, automated layer management, LISP scripting, and real-time architectural drawing collaboration. |
+| **[Revit Cloud Worksharing (Autodesk BIM Collaborate Pro)](https://autodesk.com)** | ~$64.0B Market Cap / $6.13B FY25 Revenue | $78/month (or $925/year per user) | 30-day free trial; full cloud worksharing & model coordination access in Autodesk Construction Cloud across invited project team members. | Enterprise cloud BIM platform for multi-disciplinary architectural modeling, automated construction sheet generation, clash detection, and centralized model syncing. |
+| **[BricsCAD BIM (Hexagon)](https://bricsys.com)** | ~$28.0B Market Cap / ~$5.5B Revenue | $1,166/year subscription (or $2,616 one-time perpetual) | 30-day free trial; unrestricted access to all BricsCAD Ultimate toolsets without watermarks; reverts to BricsCAD Shape after 30 days. | AI-assisted DWG-native BIM and CAD platform featuring automated spatial classification, continuous level-of-detail modeling, and automated 2D construction documentation. |
+| **[SketchUp Web (Trimble)](https://sketchup.com)** | ~$12.8B Market Cap / ~$3.8B Revenue | $119/year (SketchUp Go starting tier) | Free forever plan (SketchUp Free); limited strictly to non-commercial use, browser-only interface, 10 GB Trimble Connect cloud storage, and basic SKP/STL import/export without plugin support. | Browser-based 3D architectural massing and schematic design environment integrated with Trimble Connect cloud storage and LayOut documentation workflows. |
+| **[Vectorworks Cloud Services](https://vectorworks.net)** | ~$8.5B Market Cap / ~$1.4B Revenue (Nemetschek Group) | $108/month (Vectorworks Fundamentals starting tier; cloud services bundled with software) | Free forever account; includes 10 GB cloud storage, cloud drawing viewing, and Vectorworks Nomad mobile access for collaborators (expanded to 100 GB on paid licenses). | Cloud processing and collaboration suite offloading heavy 2D/3D architectural rendering, BIM file conversions, and automated drawing sheet publishing. |
+| **[ArchiCAD BIMcloud (Graphisoft)](https://graphisoft.com)** | ~$8.5B Market Cap / ~$1.4B Revenue (Nemetschek Group) | $47/month per seat (or bundled with Archicad Collaborate) | Free forever on-premise tier (BIMcloud Basic) limited to self-hosted private hardware and basic per-project permissions; cloud-hosted BIMcloud SaaS requires a commercial license or promotional trial. | Real-time cloud BIM collaboration server powering simultaneous architectural drafting, automated schedule extraction, and cross-team model coordination. |
+| **[Chief Architect Cloud](https://chiefarchitect.com)** | ~$10M–$17M Estimated Revenue (Privately held / Bootstrapped) | $229/month (or $1,995/year billed annually for Premier) | Unlimited duration free trial; strictly feature-restricted with save, print, and export capabilities disabled, alongside limited 3D library items. | Residential architectural drafting and automated construction drawing suite offering cloud plan sharing, 3D viewer links, and automated framing/elevation generation. |
+| **[Cedreo](https://cedreo.com)** | ~$5M–$10M Estimated ARR (Privately held, acquired by SoftNext) | $59/month (or $39/month billed annually on Pro; $59 one-time per project) | Free forever plan; limited to 1 user, 1 project total, basic floor plan drafting, limited catalog items, and basic watermarked test renders. | Cloud-based 3D home design platform automating 2D dimensioned floor plans, cross-sections, and photorealistic architectural renderings for builders and remodelers. |
+| **[Foyr Neo](https://foyr.com)** | ~$1M–$10M Estimated Revenue / ~$14M Total Venture Funding | $39/month (or $33/month billed annually on Basic) | 14-day free trial; no credit card required, includes trial access to 3D floor plan editor, standard 3D furniture catalog, and initial rendering quota. | Cloud-native architectural and interior layout platform combining automated 2D-to-3D plan conversion, AI-assisted lighting, and fast cloud rendering. |
+| **[Floorplanner](https://floorplanner.com)** | Bootstrapped / Profitable (~$1M–$5M Estimated Revenue) | $5/month (Plus plan starting tier; Pro at $29/month) | Free forever plan (Basic); limited to 5 active projects, maximum 3 floors and 3 designs per project, SD-quality exports (960x540) with watermark, 10-minute export cooldown, and 0 monthly credits. | Interactive web-based 2D/3D schematic space-planning platform for rapid architectural floor plan drafting, automated measurements, and cloud sharing. |
 
 
 
