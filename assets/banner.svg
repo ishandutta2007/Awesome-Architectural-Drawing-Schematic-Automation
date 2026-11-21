@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#090d16; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0d1527"/>
+      <stop offset="100%" stop-color="#070a14"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="cyan-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38ef7d"/>
+      <stop offset="50%" stop-color="#11998e"/>
+      <stop offset="100%" stop-color="#38ef7d"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%;100%" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#7f00ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Architectural Grid Pattern -->
+    <pattern id="arch-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.6"/>
+      <circle cx="40" cy="0" r="1.5" fill="#334155" opacity="0.6"/>
+    </pattern>
+
+    <!-- Blueprint Isometric Grid -->
+    <pattern id="iso-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#3b82f6" opacity="0.25"/>
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .blueprint-line {
+        stroke-dasharray: 8 6;
+        animation: dash 25s linear infinite;
+      }
+      .pulse-circle {
+        animation: pulse 3s ease-in-out infinite alternate;
+      }
+      .scanning-beam {
+        animation: scan 6s ease-in-out infinite alternate;
+      }
+      .badge-glow {
+        animation: floatSlow 4s ease-in-out infinite alternate;
+      }
+      @keyframes dash {
+        to {
+          stroke-dashoffset: 200;
+        }
+      }
+      @keyframes pulse {
+        0% { transform: scale(1); opacity: 0.3; }
+        100% { transform: scale(1.15); opacity: 0.7; }
+      }
+      @keyframes scan {
+        0% { transform: translateY(0); opacity: 0.2; }
+        50% { opacity: 0.6; }
+        100% { transform: translateY(220px); opacity: 0.2; }
+      }
+      @keyframes floatSlow {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-5px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" fill="url(#bg-grad)"/>
+
+  <!-- Blueprint Background Grids -->
+  <rect width="1200" height="360" fill="url(#arch-grid)"/>
+  <rect width="1200" height="360" fill="url(#iso-dots)"/>
+
+  <!-- Dynamic Architectural Ambient Glows (Deep Background) -->
+  <circle cx="150" cy="80" r="140" fill="url(#accent-glow)" class="pulse-circle" filter="url(#glow)"/>
+  <circle cx="1060" cy="280" r="160" fill="#11998e" opacity="0.12" filter="url(#glow)"/>
+  <circle cx="950" cy="100" r="120" fill="#3b82f6" opacity="0.1" filter="url(#glow)"/>
+
+  <!-- Background Animated Schematic CAD Drawings / Linework -->
+  <g opacity="0.38" stroke="#38bdf8" stroke-width="1.2" fill="none">
+    <!-- Dynamic Scanning Laser Beam -->
+    <line x1="60" y1="60" x2="1140" y2="60" stroke="#00f2fe" stroke-width="1.5" opacity="0.4" class="scanning-beam"/>
+
+    <!-- Floor Plan Wall Coordinates (Background schematic) -->
+    <path d="M 820,60 L 1120,60 L 1120,280 L 820,280 Z" stroke="#334155" stroke-width="2"/>
+    <path d="M 820,130 L 1020,130 L 1020,280" stroke="#1e293b" stroke-width="1.5"/>
+    <path d="M 1020,130 L 1120,130" stroke="#1e293b" stroke-width="1.5"/>
+    <path d="M 910,60 L 910,130" stroke="#1e293b" stroke-width="1.5"/>
+    
+    <!-- Dimension Lines -->
+    <path d="M 810,60 L 810,280" stroke="#0ea5e9" stroke-width="1" class="blueprint-line"/>
+    <line x1="805" y1="60" x2="815" y2="60" stroke="#0ea5e9" stroke-width="1.5"/>
+    <line x1="805" y1="280" x2="815" y2="280" stroke="#0ea5e9" stroke-width="1.5"/>
+    
+    <!-- Door Swing Arc Schematics -->
+    <path d="M 820,230 A 45 45 0 0 1 865,275" stroke="#38ef7d" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <line x1="820" y1="230" x2="820" y2="275" stroke="#38ef7d" stroke-width="1.2"/>
+
+    <!-- Parametric Structural Column Nodes -->
+    <rect x="816" y="56" width="8" height="8" fill="#38ef7d" stroke="none"/>
+    <rect x="1116" y="56" width="8" height="8" fill="#38ef7d" stroke="none"/>
+    <rect x="816" y="276" width="8" height="8" fill="#38ef7d" stroke="none"/>
+    <rect x="1116" y="276" width="8" height="8" fill="#38ef7d" stroke="none"/>
+    <rect x="906" y="126" width="8" height="8" fill="#38bdf8" stroke="none"/>
+    <rect x="1016" y="126" width="8" height="8" fill="#38bdf8" stroke="none"/>
+  </g>
+
+  <!-- Left Side Coordinate Compass / Drawing Datum Symbol -->
+  <g transform="translate(85, 75)" opacity="0.75">
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#38bdf8" stroke-width="1.2" class="blueprint-line"/>
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#10b981" stroke-width="1"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#38bdf8" stroke-width="1"/>
+    <line x1="0" y1="-30" x2="0" y2="30" stroke="#38bdf8" stroke-width="1"/>
+    <polygon points="0,-24 4,-14 -4,-14" fill="#38ef7d"/>
+    <text x="0" y="-34" font-size="11" font-weight="bold" fill="#38ef7d" text-anchor="middle">N</text>
+  </g>
+
+  <!-- Foreground Content Block: Guaranteed Clean Readability -->
+  <g transform="translate(140, 0)">
+    
+    <!-- Top Pill / Category Tag -->
+    <g transform="translate(0, 52)">
+      <rect x="0" y="0" width="370" height="28" rx="14" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1"/>
+      <circle cx="16" cy="14" r="5" fill="#38ef7d"/>
+      <text x="32" y="18" fill="#94a3b8" font-size="12" font-weight="600" letter-spacing="1.2">CURATED ECOSYSTEM • 2026 EDITION</text>
+    </g>
+
+    <!-- Main Title (Strictly Foreground with Clean Contrast) -->
+    <text x="0" y="132" font-size="40" font-weight="900" fill="#f8fafc" letter-spacing="-0.5">
+      Architectural Drawing &amp;
+    </text>
+    <text x="0" y="182" font-size="40" font-weight="900" fill="url(#cyan-blue)" letter-spacing="-0.5">
+      Schematic Automation
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="222" font-size="16" font-weight="500" fill="#94a3b8" letter-spacing="0.2">
+      Automated 2D Drafting, Open-Source BIM, Parametric CAD &amp; Generative Layouts
+    </text>
+
+    <!-- Tech Pills Row (Interactive / Dynamic Highlights) -->
+    <g transform="translate(0, 258)">
+      <!-- Pill 1: BIM & IFC -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="105" height="30" rx="15" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2"/>
+        <text x="52" y="19" fill="#e2e8f0" font-size="12" font-weight="600" text-anchor="middle">⚡ BIM &amp; IFC</text>
+      </g>
+      
+      <!-- Pill 2: 2D/3D CAD -->
+      <g transform="translate(117, 0)">
+        <rect x="0" y="0" width="115" height="30" rx="15" fill="#0f172a" stroke="#38ef7d" stroke-width="1.2"/>
+        <text x="57" y="19" fill="#e2e8f0" font-size="12" font-weight="600" text-anchor="middle">📐 CAD Scripts</text>
+      </g>
+
+      <!-- Pill 3: Generative AI -->
+      <g transform="translate(244, 0)">
+        <rect x="0" y="0" width="135" height="30" rx="15" fill="#0f172a" stroke="#818cf8" stroke-width="1.2"/>
+        <text x="67" y="19" fill="#e2e8f0" font-size="12" font-weight="600" text-anchor="middle">🤖 Generative AI</text>
+      </g>
+
+      <!-- Pill 4: DXF & Schematics -->
+      <g transform="translate(391, 0)">
+        <rect x="0" y="0" width="150" height="30" rx="15" fill="#0f172a" stroke="#f59e0b" stroke-width="1.2"/>
+        <text x="75" y="19" fill="#e2e8f0" font-size="12" font-weight="600" text-anchor="middle">📄 DXF / Schematics</text>
+      </g>
+
+      <!-- Pill 5: Cloud SaaS -->
+      <g transform="translate(553, 0)">
+        <rect x="0" y="0" width="125" height="30" rx="15" fill="#0f172a" stroke="#ec4899" stroke-width="1.2"/>
+        <text x="62" y="19" fill="#e2e8f0" font-size="12" font-weight="600" text-anchor="middle">☁️ Cloud SaaS</text>
+      </g>
+    </g>
+
+    <!-- Bottom Drawing Metadata Scale Bar -->
+    <g transform="translate(0, 316)" opacity="0.6">
+      <line x1="0" y1="0" x2="480" y2="0" stroke="#475569" stroke-width="1"/>
+      <line x1="0" y1="-4" x2="0" y2="4" stroke="#475569" stroke-width="1"/>
+      <line x1="120" y1="-3" x2="120" y2="3" stroke="#475569" stroke-width="1"/>
+      <line x1="240" y1="-3" x2="240" y2="3" stroke="#475569" stroke-width="1"/>
+      <line x1="360" y1="-3" x2="360" y2="3" stroke="#475569" stroke-width="1"/>
+      <line x1="480" y1="-4" x2="480" y2="4" stroke="#475569" stroke-width="1"/>
+      <text x="500" y="4" fill="#64748b" font-size="10" font-family="monospace">SCALE: N.T.S. | PROJECTION: PARAMETRIC 2D/3D</text>
+    </g>
+  </g>
+</svg>

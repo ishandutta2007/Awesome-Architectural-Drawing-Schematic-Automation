@@ -1,51 +1,53 @@
-# Awesome-Architectural-Drawing-Schematic-Automation
-# Awesome-Architectural-Drawing-Schematic-Automation
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Architectural Drawing & Schematic Automation Banner" width="100%" />
+</p>
 
-## Top Architectural Drawing & Schematic Automation Ecosystem
+# 🏛️ Awesome Architectural Drawing & Schematic Automation
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Architectural-Drawing-Schematic-Automation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Architectural-Drawing-Schematic-Automation?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Architectural-Drawing-Schematic-Automation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Architectural-Drawing-Schematic-Automation?style=social&color=white" alt="Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Architectural-Drawing-Schematic-Automation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+## 📌 Curated Architectural Drawing, Schematic Automation & Computational BIM Ecosystem
 
-*Focused on Automated Architectural Drafting, BIM Collaboration, Parametric Schematics, Generative Floor Plans & CAD Scripting*  
+> **A comprehensive, SEO-optimized collection of enterprise SaaS platforms, open-source CAD/BIM engines, parametric technical drafting libraries, AI layout generators, and automated construction documentation pipelines.**
 
-**Last updated: November 2026**
+*Focused on Automated 2D Drafting, OpenBIM Collaboration (IFC), Parametric Schematics, Generative Floor Plans, CAD Scripting (Python/C++), and Algorithmic Space Planning.*
 
+📅 **Last updated: November 2026**
 
+This repository curates and indexes top **SaaS/hosted platforms** and **open-source developer repositories** for **Architectural Drawing & Schematic Automation**. These tools empower architects, structural engineers, computational designers, and AEC developers to automate, synthesize, validate, and deliver 2D architectural blueprints, construction schematics, parametric layouts, and Building Information Modeling (BIM) packages.
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Architectural Drawing & Schematic Automation**. These tools automate, generate, collaborate on, validate, and produce 2D architectural drawings, construction schematics, parametric layouts, and Building Information Modeling (BIM) documentation across cloud workspaces, desktop CAD workstations, and computational design pipelines.
+---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Featured Open-Source Repositories (Ranked by Stars)](#-featured-open-source-repositories-ranked-by-stars)
+  - [🛠️ Specialized Frameworks & Custom Automation Pipelines](#️-specialized-frameworks--custom-automation-pipelines)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-**Examples** include AutoCAD Web, Revit Cloud Worksharing, ArchiCAD BIMcloud, Vectorworks Cloud, SketchUp Web, Chief Architect Cloud, Cedreo, Floorplanner, Foyr Neo, BricsCAD BIM, and tt-a1i/archify (the category leaders and popular runtimes). 
+---
 
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for automated architectural drawing generation, open-source native IFC/BIM authoring, computational CAD scripting, programmatic DXF/SVG schematic generation, and AI-driven architectural plan tools — ideal for architects, computational designers, BIM managers, civil engineers, and developers building transparent drafting automation workflows.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global architectural design and BIM software sector is valued at approximately **$6.6B–$10B+** (with architectural CAD drafting accounting for ~$6.6B and broader BIM/AEC software scaling beyond $10B) growing at an 8%–12% CAGR. The market exhibits an **oligopolistic concentration at the top**—dominated by incumbent mega-vendors (Autodesk, Nemetschek, Trimble, and Hexagon) controlling standard enterprise formats and BIM mandates—paired with **moderate fragmentation across specialized niches**, where agile SaaS and point solutions compete on residential space planning, AI-assisted rendering, and lightweight browser drafting.
 
+---
 
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
 | Platform | Company Scale (Market Cap / Revenue / Valuation) | Pricing (Starting Tier) | Free Tier / Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -60,134 +62,83 @@ The global architectural design and BIM software sector is valued at approximate
 | **[Foyr Neo](https://foyr.com)** | ~$1M–$10M Estimated Revenue / ~$14M Total Venture Funding | $39/month (or $33/month billed annually on Basic) | 14-day free trial; no credit card required, includes trial access to 3D floor plan editor, standard 3D furniture catalog, and initial rendering quota. | Cloud-native architectural and interior layout platform combining automated 2D-to-3D plan conversion, AI-assisted lighting, and fast cloud rendering. |
 | **[Floorplanner](https://floorplanner.com)** | Bootstrapped / Profitable (~$1M–$5M Estimated Revenue) | $5/month (Plus plan starting tier; Pro at $29/month) | Free forever plan (Basic); limited to 5 active projects, maximum 3 floors and 3 designs per project, SD-quality exports (960x540) with watermark, 10-minute export cooldown, and 0 monthly credits. | Interactive web-based 2D/3D schematic space-planning platform for rapid architectural floor plan drafting, automated measurements, and cloud sharing. |
 
-
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[tt-a1i/archify](https://github.com)**  
-
-  Open-source architectural drawing and schematic automation toolkit engineered to streamline architectural drafting, layout generation, and structured design workflows.
-
-
-
-- **[Bonsai (formerly BlenderBIM Add-on)](https://github.com)**  
-
-  Full-featured open-source native IFC/BIM authoring and automated construction documentation environment built on Blender for plans, sections, elevations, and schedules.
-
-
-
-- **[FreeCAD (BIM & TechDraw Workbenches)](https://github.com)**  
-
-  Parametric open-source 3D CAD and BIM platform featuring Python scripting automation and automated 2D architectural drawing sheet projections via TechDraw.
-
-
-
-- **[LibreCAD](https://github.com)**  
-
-  Lightweight open-source 2D CAD drafting application supporting DXF blueprints, precision architectural layers, blocks, and automated command-line drawing tools.
-
-
-
-- **[QCAD (Community Edition)](https://github.com)**  
-
-  Cross-platform open-source 2D CAD framework offering extensive ECMAScript (JavaScript) APIs for automating architectural schematics, floor plans, and batch DXF/PDF exports.
-
-
-
-- **[ezdxf](https://github.com)**  
-
-  Powerful open-source Python library for programmatically creating, modifying, validating, and automating AutoCAD DXF architectural drawings and technical schematics.
-
-
-
-- **[build123d](https://github.com)**  
-
-  Modern Python-based boundary-representation (B-Rep) parametric CAD framework for programmatic architectural components, structural assemblies, and automated 2D projections.
-
-
-
-- **[CadQuery](https://github.com)**  
-
-  Open-source Python parametric CAD scripting library built on OpenCascade for automating complex 3D architectural geometry and exporting STEP/DXF/SVG drawings.
-
-
-
-- **[OpenSCAD](https://github.com)**  
-
-  Code-driven open-source parametric CAD compiler enabling reproducible, version-controlled architectural schematics, structural grids, and 2D DXF/SVG projections.
-
-
-
-- **[Speckle (Open-Source AEC Data Hub)](https://github.com)**  
-
-  Open-source collaborative data platform and SDK ecosystem for automating 3D/BIM model streaming, version control, and interoperability across Revit, Rhino, Blender, and FreeCAD.
-
-
-
-- **[Topologic / TopologicPy](https://github.com)**  
-
-  Open-source spatial modeling and topological analysis library in Python for generative architectural space planning, energy modeling, and automated schematic graphs.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[IfcOpenShell](https://github.com)** for Python and C++ automated parsing, auditing, and generation of Industry Foundation Classes (IFC) architectural BIM models.
-
-- **[svgwrite / drawsvg](https://github.com)** for programmatic generation of clean vector architectural schematics, floor plan diagrams, and parametric SVG blueprints in Python.
-
-- **[D2](https://github.com)** and **[Mermaid](https://github.com)** for declarative text-to-diagram architectural system schematics and spatial adjacency graphs.
-
-- **[Sverchok](https://github.com)** for node-based parametric visual programming and generative architectural geometry inside Blender.
-
-- **[MeasureIt ARCH](https://github.com)** for automating live architectural dimension lines, annotations, and vector SVG/PDF drawing sheets in Blender.
-
-
-
-**Frameworks for building custom systems**: Combine **Bonsai + IfcOpenShell** for automated IFC construction drawings, **ezdxf** or **QCAD** for scripted 2D DXF blueprint automation, and **Speckle** for cloud-native open-source AEC model collaboration.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Automated architectural drawings and schematics generated via scripts or open-source BIM tools must be reviewed and stamped by a licensed architect or engineer prior to construction permitting.
-
-- Verify DXF, DWG, and IFC schema versions (IFC2x3 vs. IFC4) when automating data exchanges across AEC software ecosystems.
-
-
+---
+
+## 💻 Open-Source GitHub Projects
+
+### ⭐ Featured Open-Source Repositories (Ranked by Stars)
+
+| Repository | GitHub Stars Badge | Primary Focus / Category | Description |
+| :--- | :--- | :--- | :--- |
+| **[tt-a1i/archify](https://github.com/tt-a1i/archify)** | [![GitHub stars](https://img.shields.io/github/stars/tt-a1i/archify?style=social&color=white)](https://github.com/tt-a1i/archify/stargazers) | Architectural Automation & Schematics | Open-source architectural drawing and schematic automation toolkit engineered to streamline architectural drafting, layout generation, and structured design workflows. |
+| **[FreeCAD](https://github.com/FreeCAD/FreeCAD)** | [![GitHub stars](https://img.shields.io/github/stars/FreeCAD/FreeCAD?style=social&color=white)](https://github.com/FreeCAD/FreeCAD/stargazers) | 3D Parametric CAD & BIM Platform | Extensible parametric open-source 3D CAD/BIM modeler featuring automated 2D architectural drawing projections via TechDraw and deep Python scripting automation. |
+| **[OpenSCAD](https://github.com/openscad/openscad)** | [![GitHub stars](https://img.shields.io/github/stars/openscad/openscad?style=social&color=white)](https://github.com/openscad/openscad/stargazers) | Programmatic CAD Modeling Compiler | The programmer's solid 3D CAD modeler; compiles human-readable code into 3D geometry and automated 2D architectural section projections and DXF/SVG schematics. |
+| **[LibreCAD](https://github.com/LibreCAD/LibreCAD)** | [![GitHub stars](https://img.shields.io/github/stars/LibreCAD/LibreCAD?style=social&color=white)](https://github.com/LibreCAD/LibreCAD/stargazers) | 2D Computer-Aided Drafting | Mature open-source 2D CAD drafting suite supporting DXF blueprints, multi-layered architectural construction drawings, Hatch patterns, and coordinate automation. |
+| **[CadQuery](https://github.com/CadQuery/cadquery)** | [![GitHub stars](https://img.shields.io/github/stars/CadQuery/cadquery?style=social&color=white)](https://github.com/CadQuery/cadquery/stargazers) | Python Parametric CAD Scripting | Python parametric CAD scripting framework based on OpenCascade B-Rep kernel; automates algorithmic drafting, building massing, and DXF/SVG drawing generation. |
+| **[build123d](https://github.com/gumyr/build123d)** | [![GitHub stars](https://img.shields.io/github/stars/gumyr/build123d?style=social&color=white)](https://github.com/gumyr/build123d/stargazers) | Python Boundary-Representation CAD | Modern Python B-Rep modeling CAD framework for programmatic architectural components, structural framing, assembly generation, and automated 2D projection exports. |
+| **[IfcOpenShell (Bonsai / BlenderBIM)](https://github.com/IfcOpenShell/IfcOpenShell)** | [![GitHub stars](https://img.shields.io/github/stars/IfcOpenShell/IfcOpenShell?style=social&color=white)](https://github.com/IfcOpenShell/IfcOpenShell/stargazers) | OpenBIM & Native IFC Documentation | Leading open-source library and ecosystem for Industry Foundation Classes (IFC); powers **Bonsai** for automated native BIM 2D drawing sheet generation and schedule extraction. |
+| **[Sverchok](https://github.com/nortikin/sverchok)** | [![GitHub stars](https://img.shields.io/github/stars/nortikin/sverchok?style=social&color=white)](https://github.com/nortikin/sverchok/stargazers) | Parametric Visual Programming | Node-based parametric and generative architectural modeling suite inside Blender, facilitating algorithmic spatial layouts and complex façade schematics. |
+| **[QCAD (Community Edition)](https://github.com/qcad/qcad)** | [![GitHub stars](https://img.shields.io/github/stars/qcad/qcad?style=social&color=white)](https://github.com/qcad/qcad/stargazers) | Scriptable 2D CAD Framework | Cross-platform 2D CAD application with an extensible ECMAScript (JavaScript) API for programmatic DXF/DWG/PDF architectural plan batch generation. |
+| **[ezdxf](https://github.com/mozman/ezdxf)** | [![GitHub stars](https://img.shields.io/github/stars/mozman/ezdxf?style=social&color=white)](https://github.com/mozman/ezdxf/stargazers) | Python DXF Generation & Manipulation | High-performance Python package to read, write, audit, and automate DXF documents and technical drafting schematics across AutoCAD R12 through 2018+. |
+| **[That Open Engine (web-ifc)](https://github.com/ThatOpen/engine_web-ifc)** | [![GitHub stars](https://img.shields.io/github/stars/ThatOpen/engine_web-ifc?style=social&color=white)](https://github.com/ThatOpen/engine_web-ifc/stargazers) | WebAssembly BIM Parsing Engine | Ultra-fast client-side WebAssembly IFC geometry processing engine capable of rendering and extracting 2D architectural plans and 3D models directly in web browsers. |
+| **[Speckle Server & SDKs](https://github.com/specklesystems/speckle-server)** | [![GitHub stars](https://img.shields.io/github/stars/specklesystems/speckle-server?style=social&color=white)](https://github.com/specklesystems/speckle-server/stargazers) | Open-Source AEC Data Transport | The open-source data infrastructure platform for the AEC industry; automates real-time geometric model exchange and drawing syncing between CAD and BIM suites. |
+| **[That Open Components](https://github.com/ThatOpen/engine_components)** | [![GitHub stars](https://img.shields.io/github/stars/ThatOpen/engine_components?style=social&color=white)](https://github.com/ThatOpen/engine_components/stargazers) | Modular BIM UI & Drafting Components | Modular open-source UI/UX and 3D/2D drawing component library built on Three.js and web-ifc for creating custom browser-based BIM tools. |
+| **[CubiCasa5k](https://github.com/CubiCasa/CubiCasa5k)** | [![GitHub stars](https://img.shields.io/github/stars/CubiCasa/CubiCasa5k?style=social&color=white)](https://github.com/CubiCasa/CubiCasa5k/stargazers) | Computer Vision & Floor Plan Dataset | Large-scale dataset and deep learning baseline models for automated 2D floor plan image parsing, wall/room segmentation, and vector schematic extraction. |
+| **[Hypar Elements](https://github.com/hypar-io/Elements)** | [![GitHub stars](https://img.shields.io/github/stars/hypar-io/Elements?style=social&color=white)](https://github.com/hypar-io/Elements/stargazers) | Generative Building Geometry (C#) | Cross-platform library for writing generative building design models, structural framing algorithms, and automated IFC/glTF geometry synthesis. |
+| **[MeasureIt_ARCH](https://github.com/kevancress/MeasureIt_ARCH)** | [![GitHub stars](https://img.shields.io/github/stars/kevancress/MeasureIt_ARCH?style=social&color=white)](https://github.com/kevancress/MeasureIt_ARCH/stargazers) | Blender Dimensioning & Linework | Architectural documentation and precision dimensioning addon for Blender to automate technical annotations, dimension lines, and vector drawing outputs. |
+| **[TopologicPy](https://github.com/wassimj/topologicpy)** | [![GitHub stars](https://img.shields.io/github/stars/wassimj/topologicpy?style=social&color=white)](https://github.com/wassimj/topologicpy/stargazers) | Spatial Topology & Graph Planning | Python library combining non-manifold topology, dual graphs, and spatial reasoning for generative architectural space planning and schematic graphs. |
 
 ---
 
+### 🛠️ Specialized Frameworks & Custom Automation Pipelines
 
+- 📦 **[IfcOpenShell + Bonsai](https://github.com/IfcOpenShell/IfcOpenShell)**: Build automated continuous-integration pipelines that validate architectural models against building regulations and compile IFC construction sheets without proprietary licenses.
+- 📐 **[ezdxf + QCAD Scripting](https://github.com/mozman/ezdxf)**: Generate 2D dimensioned floor plans, HVAC schematics, electrical line layouts, and technical drawings programmatically using pure Python or JavaScript.
+- 🌐 **[That Open Engine (web-ifc) + Three.js](https://github.com/ThatOpen/engine_web-ifc)**: Build proprietary browser-based architectural portals for real-time plan viewing, measurement tools, and automated SVG drawing downloads.
+- 🔄 **[Speckle](https://github.com/specklesystems/speckle-server)**: Stream structural and architectural data between Rhino, Grasshopper, Revit, Blender, and Web browsers with automated version control.
 
-**Made for architects, BIM managers, computational designers, CAD engineers, and open-source contributors.**  
+---
 
-Let's make architectural drawing and schematic automation more open, programmable, and interoperable.
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Architectural-Drawing-Schematic-Automation&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Architectural-Drawing-Schematic-Automation&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions, project suggestions, and documentation enhancements are warmly welcomed! 
+
+1. 🍴 **Fork the repository** to your personal GitHub account.
+2. 🌿 **Create a new branch** (`git checkout -b feature/awesome-cad-addition`).
+3. 📝 **Add or update entries in `README.md`**:
+   - Ensure open-source additions include active GitHub links and official Shields.io star badges (`style=social&color=white`) linking to the stargazers page.
+   - For SaaS products, supply accurate pricing and specific free trial / free tier constraints in tabular format.
+4. 🧪 **Check link validity** and ensure markdown formatting is clean and consistent.
+5. 🚀 **Submit a Pull Request** with a concise description of your additions.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated collection useful for your architectural practice, computational design research, or drafting automation workflows, please consider supporting the project:
+
+- ⭐ **Star this repository** to help other architects, engineers, and developers discover it!
+- 🍴 **Fork and share** with colleagues in the AEC and open-source CAD/BIM community.
+- ☕ **Buy a coffee & sponsor ongoing maintenance:**  
+  [![GitHub Sponsor](https://img.shields.io/badge/Sponsor-%E2%99%A5-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/ishandutta2007)  
+  Visit the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) to support open-source developer tooling and curated AEC automation indexes.
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an **independently curated community list** and does not constitute a formal endorsement of any listed tool or platform.
+- Architectural drawings, structural schematics, and BIM models produced via algorithmic scripts or generative AI workflows must be reviewed, verified, and stamped by an accredited, licensed architect or structural engineer prior to construction execution and regulatory submission.
+- Ensure compliance with local building codes, IFC certification standards (buildingSMART IFC2x3, IFC4, IFC4.3), and software license agreements when implementing programmatic CAD systems.
+
+---
+
+<p align="center">
+  <b>Architectural Drawing & Schematic Automation Ecosystem</b> • Maintained by <a href="https://github.com/ishandutta2007">ishandutta2007</a>
+</p>
